@@ -1,7 +1,7 @@
 
 const windowInnerWidth = window.innerWidth;
 
-if (windowInnerWidth < 321) {
+if (windowInnerWidth < 767) {
     const swiper = new Swiper('.swiper', {
         slidesPerView: 1.2,
         // Optional parameters

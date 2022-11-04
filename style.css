@@ -28,19 +28,25 @@ body {
 }
 
 .repair-brand {
-    width: 320px;
+    /*width: 320px;*/
+    width: 100%;
+    max-width: 768px;
     background-color: #F2F2F2;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1119px){
     .repair-brand{
-        width: 768px;
+        /*width: 768px;*/
+        width: 100%;
+        max-width: 1119px;
     }
 }
 
 @media screen and (min-width: 1119px){
     .repair-brand{
-        width: 1120px;
+        /*width: 1120px;*/
+        width: 100%;
+        max-width: 1120px;
     }
 }
 
